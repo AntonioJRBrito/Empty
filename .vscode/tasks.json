@@ -4,7 +4,7 @@
         {
             "label": "Gerar e gravar LittleFS",
             "type": "shell",
-            "command": "C:\\Users\\anton\\.espressif\\python_env\\idf5.5_py3.11_env\\Scripts\\mklittlefs.exe -c data -p 256 -b 4096 -s 0x300000 build\\littlefs.bin && C:\\Users\\anton\\.espressif\\python_env\\idf5.5_py3.11_env\\Scripts\\python.exe -m esptool --chip esp32s3 write_flash 0x810000 build\\littlefs.bin",
+            "command": "C:\\Users\\anton\\.espressif\\python_env\\idf5.5_py3.11_env\\Scripts\\mklittlefs.exe -c data -p 256 -b 4096 -s 0x140000 build\\littlefs.bin && C:\\Users\\anton\\.espressif\\python_env\\idf5.5_py3.11_env\\Scripts\\python.exe -m esptool --chip esp32c3 write_flash 0x2a0000 build\\littlefs.bin",
             "options": { "cwd": "${workspaceFolder}" },
             "problemMatcher": []
         },

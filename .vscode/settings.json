@@ -3,13 +3,12 @@
   "idf.espIdfPathWin": "C:\\Users\\anton\\esp\\v5.5.1\\esp-idf",
   "idf.pythonInstallPath": "C:\\Users\\anton\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
   "idf.openOcdConfigs": [
-    "interface/ftdi/esp_ftdi.cfg",
-    "target/esp32s3.cfg"
+    "board/esp32c3-ftdi.cfg"
   ],
-  "idf.portWin": "COM3",
+  "idf.portWin": "COM8",
   "idf.toolsPathWin": "C:\\Users\\anton\\.espressif",
   "idf.customExtraVars": {
-    "IDF_TARGET": "esp32s3"
+    "IDF_TARGET": "esp32c3"
   },
   "clangd.path": "C:\\Users\\anton\\.espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
   "clangd.arguments": [
@@ -23,7 +22,7 @@
     {
       "label": "$(rocket) LittleFS",
       "task": "Gerar e gravar LittleFS",
-      "tooltip": "Gera e grava a imagem LittleFS no ESP32‑S3",
+      "tooltip": "Gera e grava a imagem LittleFS no ESP32‑C3",
       "alignment": "left",
       "color": "default"
     },
@@ -116,5 +115,6 @@
     "variant": "cpp",
     "ranges": "cpp",
     "shared_mutex": "cpp"
-  }
+  },
+  "idf.currentSetup": "C:\\Users\\anton\\esp\\v5.5.1\\esp-idf"
 }
